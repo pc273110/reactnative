@@ -17,7 +17,8 @@ const ListScreen = () => {
     ];
 
     return (<FlatList 
-            horizontal={true}
+            horizontal
+            showsHorizontalScrollIndicator={false}
             keyExtractor={friends=>friends.name}
             data={friends} 
             renderItem={({item})=> {
