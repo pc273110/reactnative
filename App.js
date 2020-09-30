@@ -10,7 +10,7 @@ const navigator = createStackNavigator(
    // Home: HomeScreen,
     //Component: ComponentsScreen
  //   Exercise: ComponentsExercise,
-    List: ListScreen,
+    List: ListScreen,   
   },
   {
     initialRouteName: "List",
