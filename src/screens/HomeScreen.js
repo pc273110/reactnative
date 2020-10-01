@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, StyleSheet, View, Button,TouchableOpacity } from "react-native";
 
+<<<<<<< HEAD
 const HomeScreen = ({ navigation}) => {
   //console.log(props.navigation);
   //  return  <Text style={styles.text}>First File Execute! </Text>;
@@ -26,6 +27,10 @@ const HomeScreen = ({ navigation}) => {
     
 
   </View>);
+=======
+const HomeScreen = () => {
+  return  <Text style={styles.text}>Piyush test!</Text>;
+>>>>>>> b7623a8fa1d9bdb35451f4b7d83495ba689278e5
 };
 
 
