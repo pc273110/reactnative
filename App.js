@@ -5,6 +5,7 @@ import ComponentsScreen from "./src/screens/ComponentsScreen";
 import ComponentsExercise from "./src/screens/ListScreen";
 import ListScreen from "./src/screens/ListScreen";
 import ListAge from "./src/screens/ListAge";
+import ImageScreen from "./src/screens/ImageScreen";
 // its a tool from a library called 'React Navigation' that is used to show different screens to the user
 const navigator = createStackNavigator(
   {
@@ -13,6 +14,7 @@ const navigator = createStackNavigator(
       Exercise: ComponentsExercise,
       List: ListScreen,   
       Age: ListAge,
+      Image: ImageScreen
   },
   {
       initialRouteName: "Home",
