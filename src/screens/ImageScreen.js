@@ -1,8 +1,14 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import ImageDetail from '../components/ImageDetail';
+
 
 const ImageScreen=() =>{
-    return <Text>Image screen</Text>;
+    return <Text>
+        <ImageDetail title="Forest" />
+        <ImageDetail title="Beach" />
+        <ImageDetail title="Mountain" />        
+    </Text>;
 };
 
 const styles=StyleSheet.create({});
